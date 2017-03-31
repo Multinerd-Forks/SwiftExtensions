@@ -6,8 +6,13 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C9AAD5C71E8E25E10074EE58 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AAD5C61E8E25E10074EE58 /* String.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		C9AAD5BA1E8E23690074EE58 /* SwiftExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9AAD5C61E8E25E10074EE58 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +53,7 @@
 		C9AAD5C51E8E253E0074EE58 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				C9AAD5C61E8E25E10074EE58 /* String.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -95,6 +101,7 @@
 					C9AAD5B91E8E23690074EE58 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = B5VVHWEWBM;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9AAD5C71E8E25E10074EE58 /* String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +248,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = B5VVHWEWBM;
@@ -253,6 +262,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lw.SwiftExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -262,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = B5VVHWEWBM;
