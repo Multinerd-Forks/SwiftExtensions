@@ -14,4 +14,12 @@ extension String {
     var length: Int {
         return self.characters.count
     }
+    /// URL encoding
+    func urlEncode() -> String? {
+        return self.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)
+    }
+    /// URL decoding
+    func urlDecode() -> String? {
+        return self.removingPercentEncoding
+    }
 }
