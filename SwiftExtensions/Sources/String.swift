@@ -9,17 +9,19 @@
 import Foundation
 
 extension String {
-    
     /// String length
     var length: Int {
         return self.characters.count
     }
+}
+
+extension String {
     /// URL encoding
-    func urlEncode() -> String? {
+    var urlEncode: String? {
         return self.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)
     }
     /// URL decoding
-    func urlDecode() -> String? {
+    var urlDecode: String? {
         return self.removingPercentEncoding
     }
 }
