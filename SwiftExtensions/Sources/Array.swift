@@ -20,8 +20,9 @@ extension Array where Element: Equatable {
         }
         return false
     }
-    
-    
+}
+
+extension Array {
     /// Combination with the count of Element
     ///
     /// - Parameter count: the count of Element
