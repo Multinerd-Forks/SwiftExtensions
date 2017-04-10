@@ -10,25 +10,25 @@ import Foundation
 
 extension String {
     /// String length
-    var length: Int {
+    public var length: Int {
         return self.characters.count
     }
 }
 
 extension String {
     /// URL encoding
-    var urlEncode: String? {
+    public var urlEncode: String? {
         return self.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)
     }
     /// URL decoding
-    var urlDecode: String? {
+    public var urlDecode: String? {
         return self.removingPercentEncoding
     }
 }
 
 extension String {
     /// MD5
-    var MD5: String{
+    public var MD5: String{
         let str = self.cString(using: String.Encoding.utf8)
         let strLength = CC_LONG(self.lengthOfBytes(using: String.Encoding.utf8))
         let digestLength = Int(CC_MD5_DIGEST_LENGTH)
