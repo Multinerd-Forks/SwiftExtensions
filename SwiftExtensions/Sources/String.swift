@@ -13,6 +13,22 @@ extension String {
     public var length: Int {
         return self.characters.count
     }
+    /// Cips the string based on the start position and length
+    ///
+    /// - Parameters:
+    ///   - start: start position
+    ///   - length: the length of subString
+    /// - Returns: subString
+    public func subString(start: Int, length: Int = -1) -> String {
+        var len = length
+        if len == -1 {
+            len = characters.count - start
+        }
+        let startPosition = characters.index(startIndex, offsetBy: start)
+        let endPosition = characters.index(startPosition, offsetBy: len)
+        let range = startPosition ..< endPosition
+        return substring(with: range)
+    }
 }
 
 extension String {
