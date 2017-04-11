@@ -8,20 +8,6 @@
 
 import Foundation
 
-extension Array where Element: Equatable {
-    /// Removes and returns the deleted state
-    ///
-    /// - Parameter obj: The element to be deleted
-    /// - Returns: Deleted state
-    public mutating func remove(_ obj: Element) -> Bool {
-        if let index = index(of: obj) {
-            _ = self.remove(at: index)
-            return true
-        }
-        return false
-    }
-}
-
 extension Array {
     /// Combination with the count of Element
     ///
@@ -50,5 +36,19 @@ extension Array {
             }
         }
         return result
+    }
+}
+
+extension Array where Element: Equatable {
+    /// Removes and returns the deleted state
+    ///
+    /// - Parameter obj: The element to be deleted
+    /// - Returns: Deleted state
+    public mutating func remove(_ obj: Element) -> Bool {
+        if let index = index(of: obj) {
+            _ = self.remove(at: index)
+            return true
+        }
+        return false
     }
 }
