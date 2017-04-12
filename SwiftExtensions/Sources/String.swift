@@ -43,6 +43,18 @@ extension String {
 }
 
 extension String {
+    /// Determines whether the string contains Chinese
+    func isContainChinese() -> Bool {
+        for char in self.characters {
+            if ("\u{4E00}" <= char  && char <= "\u{9FA5}") {
+                return true
+            }
+        }
+        return false
+    }
+}
+
+extension String {
     /// MD5 , need #import <CommonCrypto/CommonDigest.h>
     public var MD5: String{
         let str = self.cString(using: String.Encoding.utf8)
