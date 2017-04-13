@@ -52,6 +52,21 @@ extension String {
         }
         return false
     }
+    /// Get the Chinese Phonetic Alphabet of Chinese characters
+    func chinesePhoneticAlphabet() -> String {
+        var pinyin = ""
+        if self == "" {
+            return pinyin
+        }
+        let str = CFStringCreateMutableCopy(nil, 0, self as CFString)
+        CFStringTransform(str, nil, kCFStringTransformToLatin, Bool(0))
+        CFStringTransform(str, nil, kCFStringTransformStripCombiningMarks, Bool(0))
+        
+        if let str = str {
+            pinyin = str as String
+        }
+        return pinyin
+    }
 }
 
 extension String {
