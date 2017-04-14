@@ -29,6 +29,13 @@ extension String {
         let range = startPosition ..< endPosition
         return substring(with: range)
     }
+    /// return the subString's startIndex
+    public func indexOf(subString: String) -> Int? {
+        if let range = range(of: subString) {
+            return distance(from: startIndex, to: range.lowerBound)
+        }
+        return nil
+    }
 }
 
 extension String {
