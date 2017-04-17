@@ -10,6 +10,7 @@
 		C996FEBA1EA222F50033F01E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C996FEB91EA222F50033F01E /* UIView.swift */; };
 		C9AAD5C71E8E25E10074EE58 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AAD5C61E8E25E10074EE58 /* String.swift */; };
 		C9AAD5C91E8E2A1F0074EE58 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AAD5C81E8E2A1F0074EE58 /* Array.swift */; };
+		C9BCD9DA1EA48C8400FFEBF4 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BCD9D91EA48C8400FFEBF4 /* Int.swift */; };
 		C9DAB98A1E8F3DCC00EE5D70 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DAB9891E8F3DCC00EE5D70 /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
@@ -18,6 +19,7 @@
 		C9AAD5BA1E8E23690074EE58 /* SwiftExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AAD5C61E8E25E10074EE58 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		C9AAD5C81E8E2A1F0074EE58 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		C9BCD9D91EA48C8400FFEBF4 /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
 		C9D6EDF21E973AC90000A4A5 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		C9DAB9891E8F3DCC00EE5D70 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +66,7 @@
 				C9AAD5C81E8E2A1F0074EE58 /* Array.swift */,
 				C9DAB9891E8F3DCC00EE5D70 /* UIColor.swift */,
 				C996FEB91EA222F50033F01E /* UIView.swift */,
+				C9BCD9D91EA48C8400FFEBF4 /* Int.swift */,
 				C9D6EDF21E973AC90000A4A5 /* Bridging-Header.h */,
 			);
 			path = Sources;
@@ -151,6 +154,7 @@
 			files = (
 				C996FEBA1EA222F50033F01E /* UIView.swift in Sources */,
 				C9AAD5C71E8E25E10074EE58 /* String.swift in Sources */,
+				C9BCD9DA1EA48C8400FFEBF4 /* Int.swift in Sources */,
 				C9AAD5C91E8E2A1F0074EE58 /* Array.swift in Sources */,
 				C9DAB98A1E8F3DCC00EE5D70 /* UIColor.swift in Sources */,
 			);
