@@ -10,7 +10,7 @@ import Foundation
 
 extension Double {
     /// returns abs(self)
-    func abs () -> Double {
+    var abs: Double {
         return Foundation.fabs(self)
     }
 }

@@ -10,7 +10,11 @@ import Foundation
 
 extension Float {
     /// returns abs(self)
-    func abs () -> Float {
+    var abs: Float {
         return fabsf(self)
+    }
+    /// returns sqrt(self)
+    var sqrt: Float {
+        return sqrtf(self)
     }
 }
