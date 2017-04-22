@@ -9,7 +9,7 @@
 import Foundation
 
 extension Int {
-    /// returns abs(self)
+    /// Absolute value
     var abs: Int {
         return Swift.abs(self)
     }

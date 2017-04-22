@@ -9,7 +9,7 @@
 import Foundation
 
 extension Double {
-    /// returns abs(self)
+    /// Absolute value
     var abs: Double {
         return Foundation.fabs(self)
     }
