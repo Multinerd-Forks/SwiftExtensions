@@ -26,7 +26,7 @@ extension UIColor {
     ///   - rgbColor: Hexadecimal color value. eg. let rgb: UInt32 = 0xCC6699
     ///   - alpha: Color's alpha
     /// - Returns: A new color
-    /// eg. let color = UIColor.color(0xCC6699)
+    /// eg. let color = UIColor.color(0xCC6699, alpha: 0.5)
     public class func color(_ rgbColor: UInt32, alpha: Float) -> UIColor {
         let redComponent: UInt32 = (rgbColor & 0xFF0000) >> 16
         let greenComponent: UInt32 = (rgbColor & 0x00FF00) >> 8
