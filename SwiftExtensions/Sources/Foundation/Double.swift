@@ -13,4 +13,20 @@ extension Double {
     var abs: Double {
         return Foundation.fabs(self)
     }
+    /// Squared root
+    var sqrt: Double {
+        return Foundation.sqrt(self)
+    }
+    /// Rounds self to the largest integer <= self
+    var floor: Double {
+        return Foundation.floor(self)
+    }
+    /// Rounds self to the smallest integer >= self
+    var ceil: Double {
+        return Foundation.ceil(self)
+    }
+    /// Rounds self to the nearest integer
+    var round: Double {
+        return Foundation.round(self)
+    }
 }

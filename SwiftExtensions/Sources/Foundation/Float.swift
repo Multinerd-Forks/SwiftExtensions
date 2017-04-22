@@ -11,22 +11,22 @@ import Foundation
 extension Float {
     /// Absolute value
     var abs: Float {
-        return fabsf(self)
+        return Foundation.fabsf(self)
     }
     /// Squared root
     var sqrt: Float {
-        return sqrtf(self)
+        return Foundation.sqrtf(self)
     }
     /// Rounds self to the largest integer <= self
     var floor: Float {
-        return floorf(self)
+        return Foundation.floorf(self)
     }
     /// Rounds self to the smallest integer >= self
     var ceil: Float {
-        return ceilf(self)
+        return Foundation.ceilf(self)
     }
     /// Rounds self to the nearest integer
     var round: Float {
-        return roundf(self)
+        return Foundation.roundf(self)
     }
 }
