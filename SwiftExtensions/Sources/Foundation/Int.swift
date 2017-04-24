@@ -13,6 +13,9 @@ extension Int {
     var abs: Int {
         return Swift.abs(self)
     }
+}
+
+extension Int {
     /// Checks if a number is even. Return true if self is even
     var isEven: Bool {
         return (self % 2) == 0
