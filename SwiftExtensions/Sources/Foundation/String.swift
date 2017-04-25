@@ -78,7 +78,7 @@ extension String {
 
 extension String {
     /// MD5 , need #import <CommonCrypto/CommonDigest.h>
-    public var MD5: String{
+    public var MD5: String {
         let str = self.cString(using: String.Encoding.utf8)
         let strLength = CC_LONG(self.lengthOfBytes(using: String.Encoding.utf8))
         let digestLength = Int(CC_MD5_DIGEST_LENGTH)

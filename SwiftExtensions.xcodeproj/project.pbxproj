@@ -14,6 +14,7 @@
 		C9A9B5201EAAF83A00612411 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A9B5181EAAF83A00612411 /* String.swift */; };
 		C9A9B5211EAAF83A00612411 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A9B51A1EAAF83A00612411 /* UIColor.swift */; };
 		C9A9B5221EAAF83A00612411 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A9B51B1EAAF83A00612411 /* UIView.swift */; };
+		C9AC453E1EAF1B75004E9E88 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC453D1EAF1B75004E9E88 /* UIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		C9A9B51A1EAAF83A00612411 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		C9A9B51B1EAAF83A00612411 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		C9AAD5BA1E8E23690074EE58 /* SwiftExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9AC453D1EAF1B75004E9E88 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		C9D6EDF21E973AC90000A4A5 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +58,7 @@
 			children = (
 				C9A9B51A1EAAF83A00612411 /* UIColor.swift */,
 				C9A9B51B1EAAF83A00612411 /* UIView.swift */,
+				C9AC453D1EAF1B75004E9E88 /* UIImage.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9A9B51D1EAAF83A00612411 /* Double.swift in Sources */,
+				C9AC453E1EAF1B75004E9E88 /* UIImage.swift in Sources */,
 				C9A9B5211EAAF83A00612411 /* UIColor.swift in Sources */,
 				C9A9B51C1EAAF83A00612411 /* Array.swift in Sources */,
 				C9A9B5221EAAF83A00612411 /* UIView.swift in Sources */,
