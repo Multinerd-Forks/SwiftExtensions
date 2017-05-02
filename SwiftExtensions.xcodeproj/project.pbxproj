@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C94455771EB85D0D0097FFC1 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94455761EB85D0D0097FFC1 /* Date.swift */; };
 		C9A9B51C1EAAF83A00612411 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A9B5141EAAF83A00612411 /* Array.swift */; };
 		C9A9B51D1EAAF83A00612411 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A9B5151EAAF83A00612411 /* Double.swift */; };
 		C9A9B51E1EAAF83A00612411 /* Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A9B5161EAAF83A00612411 /* Float.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C94455761EB85D0D0097FFC1 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		C9A9B5141EAAF83A00612411 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		C9A9B5151EAAF83A00612411 /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		C9A9B5161EAAF83A00612411 /* Float.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Float.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 				C9A9B5161EAAF83A00612411 /* Float.swift */,
 				C9A9B5171EAAF83A00612411 /* Int.swift */,
 				C9A9B5181EAAF83A00612411 /* String.swift */,
+				C94455761EB85D0D0097FFC1 /* Date.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				C9A9B5221EAAF83A00612411 /* UIView.swift in Sources */,
 				C9A9B5201EAAF83A00612411 /* String.swift in Sources */,
 				C9A9B51E1EAAF83A00612411 /* Float.swift in Sources */,
+				C94455771EB85D0D0097FFC1 /* Date.swift in Sources */,
 				C9A9B51F1EAAF83A00612411 /* Int.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
